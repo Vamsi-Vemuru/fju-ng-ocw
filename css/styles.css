@@ -32,3 +32,15 @@
 md-checkbox.md-checked.green .md-icon {
  background-color: rgba(0, 255, 0, 0.87);
 }
+
+.mssdcard {
+  margin-left: 3%;
+}
+
+.fjucard {
+  margin-right: 6%;
+}
+
+#info {
+  margin-top: 3%;
+}
