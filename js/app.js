@@ -1,10 +1,15 @@
 (function() {
 	var app = angular.module('landingpage',['ngMaterial']);
-	
+
 	app.config(function($interpolateProvider) {
  		$interpolateProvider.startSymbol('{[{');
   		$interpolateProvider.endSymbol('}]}');
 	});
+
+	app.controller("courseReqCtrl", function() {
+		this.courses = courseReq;
+	});
+
 
 	app.controller("foundationCoursesCtrl", function() {
 		this.courses = foundationCourses;
@@ -17,6 +22,17 @@
 	app.controller("specializationsCtrl", function() {
 		this.courses = specializations;
 	});
+
+	var courseReq = [{
+		name:"Foundation Courses",
+		credits:"6"
+	}, {
+		name:"Breadth Courses",
+		credits:"6"
+	}, {
+		name:"Specializations",
+		credits:"6"
+	}];
 
 	var foundationCourses = [{
 		coursename: "Intro Programming",
