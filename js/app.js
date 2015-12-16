@@ -1,91 +1,99 @@
 (function() {
 	var app = angular.module('landingpage',['ngMaterial']);
-	angular.controller("foundationCoursesCtrl", function() {
+	app.controller("foundationCoursesCtrl", function() {
 		this.courses = foundationCourses;
 	});
 
+	app.controller("breadthCoursesCtrl", function() {
+		this.courses = breadthCourses;
+	});
+
+	app.controller("specializationsCtrl", function() {
+		this.courses = specializations;
+	});
+
 	var foundationCourses = [{
-		course: "Intro Programming",
+		coursename: "Intro Programming",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Object Oriented Programming",
+		coursename: "Object Oriented Programming",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Computer Systems",
+		coursename: "Computer Systems",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Algorithms and Data Structures",
+		coursename: "Algorithms and Data Structures",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Databases",
+		coursename: "Databases",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Software Engineering",
+		coursename: "Software Engineering",
 		description: "",
 		instructor: ""
 	}];
 
 	var breadthCourses = [{
-		course: "Social Network Computing",
+		coursename: "Social Network Computing",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Mobile Apps",
+		coursename: "Mobile Apps",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Data Analytics",
+		coursename: "Data Analytics",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Cloud Computing",
+		coursename: "Cloud Computing",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Artificial Intelligence",
+		coursename: "Artificial Intelligence",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Robotics",
+		coursename: "Robotics",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Network",
+		coursename: "Network",
 		description: "",
 		instructor: ""
 	} , {
-		course: "Security",
+		coursename: "Security",
 		description: "",
 		instructor: ""
 	}];
 
 	var specializations = [{
-		course: "Full Stack Web Development",
+		coursename: "Full Stack Web Development",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Android App Development",
+		coursename: "Android App Development",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Data Science",
+		coursename: "Data Science",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Software Engineering",
+		coursename: "Software Engineering",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Cloud Computing",
+		coursename: "Cloud Computing",
 		description: "",
 		instructor: ""
 	}, {
-		course: "Advanced Programming",
+		coursename: "Advanced Programming",
 		description: "",
 		instructor: ""
 	}];
