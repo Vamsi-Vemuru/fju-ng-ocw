@@ -1,5 +1,11 @@
 (function() {
 	var app = angular.module('landingpage',['ngMaterial']);
+	
+	app.config(function($interpolateProvider) {
+ 		$interpolateProvider.startSymbol('{[{');
+  		$interpolateProvider.endSymbol('}]}');
+	});
+
 	app.controller("foundationCoursesCtrl", function() {
 		this.courses = foundationCourses;
 	});

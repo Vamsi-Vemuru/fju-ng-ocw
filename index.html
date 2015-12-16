@@ -60,7 +60,7 @@
               <md-list>
                 <md-list-item class="md-1-line" ng-repeat="course in fndnctrl.courses">
                   <div class="md-list-item-text">
-                    <span class="md-subhead">{{ course.coursename }}</span>
+                    <span class="md-subhead">{[{ course.coursename }]}</span>
                   </div>
                   <md-divider ng-if="!$last"></md-divider>
                 </md-list-item>
@@ -76,7 +76,7 @@
               <md-list>
                 <md-list-item class="md-1-line" ng-repeat="course in brctrl.courses">
                   <div class="md-list-item-text">
-                    <span class="md-subhead">{{ course.coursename }}</span>
+                    <span class="md-subhead">{[{ course.coursename }]}</span>
                   </div>
                   <md-divider ng-if="!$last"></md-divider>
                 </md-list-item>
@@ -91,7 +91,7 @@
               <md-list>
                 <md-list-item class="md-1-line" ng-repeat="course in splctrl.courses">
                   <div class="md-list-item-text">
-                    <span class="md-subhead">{{ course.coursename }}</span>
+                    <span class="md-subhead">{[{ course.coursename }]}</span>
                   </div>
                   <md-divider ng-if="!$last"></md-divider>
                 </md-list-item>
