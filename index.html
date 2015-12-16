@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Franklin Jefferson University</title>
+  <link rel="stylesheet" href="https://cdn.gitcdn.xyz/cdn/angular/bower-material/v1.0.0/angular-material.css">
+  <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <style type="text/css">
+    /**
+      * Hide when Angular is not yet loaded and initialized
+    */
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+      display: none !important;
+    }
+  </style>
+</head>
+<body ng-app='landingpage'>
+  <div class="fjutoolbar">
+    <md-content style="overflow: visible">
+      <md-toolbar>
+        <div class="md-toolbar-tools">
+          <div flex="10">
+            <img id="logo" src="img/fju-logo.png">
+          </div>
+          <h2>
+            <span id="header">Franklin Jefferson University</span>
+          </h2>
+          <span flex=""></span>
+          <md-button>
+            Get to know FJU
+          </md-button>
+          <md-button>
+            Learning at FJU
+          </md-button>
+          <md-button>
+            FJU Courses
+          </md-button>
+        </div>
+      </md-toolbar>
+    </md-content>
+  </div>
+
+  <div class="fjucard">
+    <md-content class="md-padding" layout="row" layout-wrap="" layout-align="center start">
+      <div flex="75" layout="column">
+        <md-card>
+          <md-card-header>
+            <md-card-header-text>
+              <span class="md-title">Master of Science in Software Development</span>
+              <span class="md-subhead">
+                <p>The Master of Science in Software Development program is designed to provide an immersive learn by doing experience for students who aspire to take up roles in fast-paced software companies and tech startups. The curriculum begins with an introduction to programming, object oriented programming and databases as the foundation courses. Students then prepared to develop software for the Internet and Android devices. In addition students apply their skills and professional software development practices on real customer projects to attain a mastery in the field.</p>
+              </span>
+            </md-card-header-text>
+          </md-card-header>
+          <div class="fjucardtabs">
+            <md-content>
+              <md-tabs md-dynamic-height="" md-border-bottom="">
+                <md-tab label="Overview">
+                  <md-content class="md-padding">
+                    <h1 class="md-display-2">Overview</h1>
+                  </md-content>
+                </md-tab>
+                <md-tab label="Eligibility">
+                  <md-content class="md-padding">
+                    <h1 class="md-display-2">Eligibility</h1>
+                  </md-content>
+                </md-tab>
+                <md-tab label="Courses">
+                  <md-content class="md-padding">
+                    <h1 class="md-display-2">Courses</h1>
+                  </md-content>
+                </md-tab>
+                <md-tab label="Register">
+                  <md-content class="md-padding">
+                    <h1 class="md-display-2">Register</h1>
+                  </md-content>
+                </md-tab>
+                <md-tab label="Sign In">
+                  <md-content class="md-padding">
+                    <h1 class="md-display-2">Sign In</h1>
+                  </md-content>
+                </md-tab>
+              </md-tabs>
+            </md-content>
+          </div>
+        </md-card>
+      </div>
+    </md-content>
+  </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<!-- Angular Material Library -->
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+</body>
+</html>

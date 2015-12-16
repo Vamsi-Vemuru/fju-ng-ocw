@@ -1,0 +1,29 @@
+.fjucardtabs md-content {
+  background-color: transparent !important;
+}
+
+.fjucardtabs md-content md-tabs {
+  background: #f6f6f6;
+  border: 1px solid #e1e1e1;
+}
+
+.fjucardtabs md-content md-tabs md-tabs-wrapper {
+  background: white;
+}
+
+.fjucardtabs md-content h1:first-child {
+    margin-top: 0;
+}
+
+#header {
+  color:white; 
+  font-family: 'Italianno', cursive;
+  margin-top:2px;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+#logo {
+  height: 50%;
+  border-radius: 50%;
+}
