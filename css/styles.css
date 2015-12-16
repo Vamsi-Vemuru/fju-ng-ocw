@@ -24,6 +24,11 @@
 }
 
 #logo {
-  height: 50%;
   border-radius: 50%;
+  max-width: 100%;
+  width: 54%;
+}
+
+md-checkbox.md-checked.green .md-icon {
+ background-color: rgba(0, 255, 0, 0.87);
 }

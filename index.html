@@ -49,7 +49,7 @@
             <md-card-header-text>
               <span class="md-title">Master of Science in Software Development</span>
               <span class="md-subhead">
-                <p>The Master of Science in Software Development program is designed to provide an immersive learn by doing experience for students who aspire to take up roles in fast-paced software companies and tech startups. The curriculum begins with an introduction to programming, object oriented programming and databases as the foundation courses. Students then prepared to develop software for the Internet and Android devices. In addition students apply their skills and professional software development practices on real customer projects to attain a mastery in the field.</p>
+                <p align="justify">The Master of Science in Software Development program is designed to provide an immersive learn by doing experience for students who aspire to take up roles in fast-paced software companies and tech startups. The curriculum begins with an introduction to programming, object oriented programming and databases as the foundation courses. Students then prepared to develop software for the Internet and Android devices. In addition students apply their skills and professional software development practices on real customer projects to attain a mastery in the field.</p>
               </span>
             </md-card-header-text>
           </md-card-header>
@@ -73,12 +73,75 @@
                 </md-tab>
                 <md-tab label="Register">
                   <md-content class="md-padding">
-                    <h1 class="md-display-2">Register</h1>
+                    <div layout="column" ng-cloak="" class="md-inline-form inputdemoBasicUsage">
+                      <md-content layout-padding="">
+                        <div>
+                          <form name="userForm">
+                            <div layout-gt-xs="row">
+                              <md-input-container class="md-block" flex-gt-sm="30">
+                                <label>First name</label>
+                                <input ng-model="user.firstName">
+                              </md-input-container>
+
+                              <md-input-container class="md-block" flex-gt-sm="30">
+                                <label>Last Name</label>
+                                <input ng-model="theMax">
+                              </md-input-container>
+                            </div>
+                            
+                            <md-input-container class="md-block" flex-gt-sm="60">
+                              <label>Email</label>
+                              <input type="email">
+                            </md-input-container>
+                           
+                            <md-input-container class="md-block" flex-gt-sm="60">
+                              <label>Password</label>
+                              <input type="password">
+                            </md-input-container>
+                            
+                            <md-input-container class="md-block" flex-gt-sm="60">
+                              <label>Confirm Password</label>
+                              <input type="password">
+                            </md-input-container>
+                            <div layout="row" flex-gt-sm="50">
+                              <md-checkbox class="green">
+                                I agree to the Terms and Conditions.
+                              </md-checkbox>
+                              <md-button class="md-raised" flex-gt-sm="10">Register</md-button>
+                            </div>
+                          </form>
+                        </div>
+                      </md-content>
+                    </div>
                   </md-content>
                 </md-tab>
                 <md-tab label="Sign In">
                   <md-content class="md-padding">
-                    <h1 class="md-display-2">Sign In</h1>
+                    <div layout="column" ng-cloak="" class="md-inline-form inputdemoBasicUsage">
+                      <md-content layout-padding="">
+                        <div>
+                          <form name="userForm">
+                                                        
+                            <md-input-container class="md-block" flex-gt-sm="60">
+                              <label>Email</label>
+                              <input type="email">
+                            </md-input-container>
+                           
+                            <md-input-container class="md-block" flex-gt-sm="60">
+                              <label>Password</label>
+                              <input type="password">
+                            </md-input-container>
+                            
+                            <div layout="row" flex-gt-sm="50">
+                              <md-checkbox class="green">
+                                Remember Me
+                              </md-checkbox>
+                              <md-button class="md-raised" flex-gt-sm="10">Sign In</md-button>
+                            </div>
+                          </form>
+                        </div>
+                      </md-content>
+                    </div>
                   </md-content>
                 </md-tab>
               </md-tabs>
